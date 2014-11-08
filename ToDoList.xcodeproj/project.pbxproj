@@ -14,6 +14,7 @@
 		760C2DAC19E3038C00615167 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 760C2DAB19E3038C00615167 /* Images.xcassets */; };
 		760C2DAF19E3038C00615167 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 760C2DAD19E3038C00615167 /* LaunchScreen.xib */; };
 		760C2DBB19E3038D00615167 /* ToDoListTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 760C2DBA19E3038D00615167 /* ToDoListTests.m */; };
+		760C2DC519E306E300615167 /* main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 760C2DC419E306E300615167 /* main.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,7 @@
 		760C2DB419E3038D00615167 /* ToDoListTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ToDoListTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		760C2DB919E3038D00615167 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		760C2DBA19E3038D00615167 /* ToDoListTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ToDoListTests.m; sourceTree = "<group>"; };
+		760C2DC419E306E300615167 /* main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = main.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +85,7 @@
 			children = (
 				760C2DA219E3038C00615167 /* AppDelegate.h */,
 				760C2DA319E3038C00615167 /* AppDelegate.m */,
+				760C2DC419E306E300615167 /* main.storyboard */,
 				760C2DA519E3038C00615167 /* ViewController.h */,
 				760C2DA619E3038C00615167 /* ViewController.m */,
 				760C2DA819E3038C00615167 /* Main.storyboard */,
@@ -202,6 +205,7 @@
 				760C2DAA19E3038C00615167 /* Main.storyboard in Resources */,
 				760C2DAF19E3038C00615167 /* LaunchScreen.xib in Resources */,
 				760C2DAC19E3038C00615167 /* Images.xcassets in Resources */,
+				760C2DC519E306E300615167 /* main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
